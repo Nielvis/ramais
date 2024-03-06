@@ -23,23 +23,3 @@ O teste também contará com algumas atividades obrigatórias:
 4. Estes arquivos NÃO devem unidos em um só arquivo  
 5. Estes arquivos poderão ser alterados apenas para teste do AJAX  
 6. Ao concluir o teste, deverá ser encaminhado um arquivo .zip contendo todo o código, dump da base de dados e instruções de instalação e a lista das melhorias aplicadas.  
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Olá, eu sou o Nielvis, e este é o meu teste prático para a vaga de programador PHP com o framework CodeIgniter(L5 NETWORKS). No código que desenvolvi, apresento uma página HTML dedicada ao monitoramento de ramais. Utilizando JavaScript, realizo requisições assíncronas a um backend em PHP para obter informações atualizadas sobre o status dos ramais e, em seguida, exibo essas informações dinamicamente na página.
-
-A estrutura HTML consiste em um painel de monitoramento de ramais, onde cada ramal é representado por um cartão. O JavaScript é responsável por realizar requisições ao arquivo PHP chamado "Ramais.php", o qual retorna os dados dos ramais no formato JSON. Posteriormente, esses cartões são atualizados de forma dinâmica na página. Para garantir uma atualização constante das informações, as requisições são feitas a cada 10 segundos, utilizando a função setInterval.
-
-No backend em PHP, criei diversas classes e funções dedicadas ao gerenciamento do banco de dados. Implementei uma lógica que busca informações sobre os ramais em um banco de dados MySQL, formata esses dados e os retorna no formato JSON. É importante ressaltar que existem diferentes implementações de classes PHP para obter essas informações, cada uma utilizando métodos distintos para interagir com o banco de dados e retornar os dados dos ramais.
-
-Resumindo, o código que desenvolvi cria uma aplicação web voltada ao monitoramento de ramais. Utilizando uma combinação de HTML, CSS, JavaScript e PHP, consigo atualizar dinamicamente a página com informações em tempo real provenientes do backend em PHP. Apesar de possíveis erros, estou sempre em busca de melhorias contínuas. O código reflete o meu trabalho e comprometimento com a qualidade e eficiência(pode ter algumas aberreções ou se perguntarem:"COMO ELE FEZ ISSO?", dev junior né). Mas brincadeiras a parte, obrigado pela a oportunidade. 
-
-Algumas melhorias feitas: 
-Implementação de Classes e Funções PHP:
-Foram criadas classes e funções PHP para encapsular a lógica relacionada à manipulação do banco de dados e obtenção dos dados dos ramais. Isso promove uma melhor modularidade e reutilização de código, tornando-o mais limpo e fácil de entender.
-
-Padronização das Consultas SQL:
-As consultas SQL foram padronizadas e centralizadas em métodos ou funções PHP, reduzindo a duplicação de código e facilitando futuras alterações ou otimizações.
-
-Uso de PDO para Acesso ao Banco de Dados:
-O uso de PDO (PHP Data Objects) para acessar o banco de dados em vez de funções de acesso direto ao MySQL, como mysqli, melhora a segurança e a portabilidade do código, além de fornecer recursos adicionais, como manipulação de exceções.
