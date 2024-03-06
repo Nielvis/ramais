@@ -1,0 +1,98 @@
+*{
+    font-family: "Telefon Black", sans-serif;
+}
+
+.card.offline {
+    background-color: #f2f2f2; 
+}
+
+.icone.offline {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: #888; 
+    border-radius: 50%;
+}
+.card.pausa {
+    background-color: #fff3e0; 
+}
+
+.icone.pausa {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: #ffa726; 
+    border-radius: 50%;
+}
+.ocupado {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ff0000;
+}
+
+.chamando {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    animation: piscar 1s linear infinite;
+}
+
+@keyframes piscar {
+    50% {
+        opacity: 0;
+    }
+}
+
+.disponivel {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #00ff00;
+}
+
+.icone-posicao {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+} 
+
+.cartao {
+    width: 200px;
+    height: 190px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    position: relative;
+    padding: 15px;
+    padding-top: 30px;
+    margin: 10px;
+    color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.cartao:hover {
+    transform: translateY(-5px);
+}
+
+.cartao .icone-posicao {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #696464; 
+}
+
+.offline {
+    background-color: #504d4d; 
+}
+
+.pausa {
+    background-color: #ff9d00; 
+}
